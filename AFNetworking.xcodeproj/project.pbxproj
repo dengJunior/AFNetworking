@@ -19,9 +19,9 @@
 		1F6F7DFB1F17051000C979D0 /* Let's Encrypt Authority X3.cer in Resources */ = {isa = PBXBuildFile; fileRef = 1F6F7DF51F1703A100C979D0 /* Let's Encrypt Authority X3.cer */; };
 		1F6F7DFD1F17051100C979D0 /* DST Root CA X3.cer in Resources */ = {isa = PBXBuildFile; fileRef = 1F6F7DF61F1703A100C979D0 /* DST Root CA X3.cer */; };
 		1F6F7DFE1F17051100C979D0 /* Let's Encrypt Authority X3.cer in Resources */ = {isa = PBXBuildFile; fileRef = 1F6F7DF51F1703A100C979D0 /* Let's Encrypt Authority X3.cer */; };
-		2328C59B1FDFF0BA00C9B24B /* AFHTTPSessionManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 2328C5971FDFF0BA00C9B24B /* AFHTTPSessionManager.h */; };
+		2328C59B1FDFF0BA00C9B24B /* AFHTTPSessionManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 2328C5971FDFF0BA00C9B24B /* AFHTTPSessionManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		2328C59C1FDFF0BA00C9B24B /* AFHTTPSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 2328C5981FDFF0BA00C9B24B /* AFHTTPSessionManager.m */; };
-		2328C59D1FDFF0BA00C9B24B /* AFURLSessionManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 2328C5991FDFF0BA00C9B24B /* AFURLSessionManager.h */; };
+		2328C59D1FDFF0BA00C9B24B /* AFURLSessionManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 2328C5991FDFF0BA00C9B24B /* AFURLSessionManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		2328C59E1FDFF0BA00C9B24B /* AFURLSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 2328C59A1FDFF0BA00C9B24B /* AFURLSessionManager.m */; };
 		2328C59F1FDFF0E000C9B24B /* AFHTTPSessionManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 2328C5971FDFF0BA00C9B24B /* AFHTTPSessionManager.h */; };
 		2328C5A01FDFF0E000C9B24B /* AFHTTPSessionManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 2328C5971FDFF0BA00C9B24B /* AFHTTPSessionManager.h */; };
@@ -605,15 +605,15 @@
 			files = (
 				2995225A1BBF125A00859F49 /* AFURLRequestSerialization.h in Headers */,
 				299522A81BBF13C700859F49 /* UIImage+AFNetworking.h in Headers */,
-				2328C59B1FDFF0BA00C9B24B /* AFHTTPSessionManager.h in Headers */,
 				2995229C1BBF13C700859F49 /* AFAutoPurgingImageCache.h in Headers */,
 				299522581BBF125A00859F49 /* AFSecurityPolicy.h in Headers */,
-				2328C59D1FDFF0BA00C9B24B /* AFURLSessionManager.h in Headers */,
 				299522561BBF125A00859F49 /* AFNetworkReachabilityManager.h in Headers */,
 				299522A91BBF13C700859F49 /* UIImageView+AFNetworking.h in Headers */,
 				2995229E1BBF13C700859F49 /* AFImageDownloader.h in Headers */,
 				2995225C1BBF125A00859F49 /* AFURLResponseSerialization.h in Headers */,
 				299522A21BBF13C700859F49 /* UIActivityIndicatorView+AFNetworking.h in Headers */,
+				2328C59B1FDFF0BA00C9B24B /* AFHTTPSessionManager.h in Headers */,
+				2328C59D1FDFF0BA00C9B24B /* AFURLSessionManager.h in Headers */,
 				2995223D1BBF104D00859F49 /* AFNetworking.h in Headers */,
 				299522B01BBF13C700859F49 /* UIWebView+AFNetworking.h in Headers */,
 				299522AC1BBF13C700859F49 /* UIProgressView+AFNetworking.h in Headers */,
